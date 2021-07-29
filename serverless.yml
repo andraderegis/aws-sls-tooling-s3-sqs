@@ -10,6 +10,7 @@ provider:
 
 plugins:
   - serverless-offline
+  - serverless-jest-plugin
 
 functions:
   hello:
