@@ -1,0 +1,15 @@
+{
+  "name": "tooling-s3-sqs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx nodemon --exec yarn run offline",
+    "offline": "sls offline start --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "serverless": "^2.52.1",
+    "serverless-offline": "^8.0.0"
+  }
+}
