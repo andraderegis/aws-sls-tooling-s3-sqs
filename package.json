@@ -12,6 +12,10 @@
     "nodemon": "^2.0.12",
     "serverless": "^2.52.1",
     "serverless-jest-plugin": "^0.3.0",
+    "serverless-localstack": "^0.4.32",
     "serverless-offline": "^8.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.956.0"
   }
 }
